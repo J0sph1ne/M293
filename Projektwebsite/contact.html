@@ -1,34 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontakt</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Website</div>
+      <ul class="navlinks">
+        <li><a href="index.html">Start</a></li>
+        <li><a href="about.html">Über mich</a></li>
+        <li><a href="skills.html">Fähigkeiten</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
 
-  <nav class="navbar">
-    <div class="logo">Website</div>
-    <ul class="navlinks">
-      <li><a href="index.html">Start</a></li>
-      <li><a href="about.html">Über mich</a></li>
-      <li><a href="skills.html">Fähigkeiten</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Kontakt</a></li>
-    </ul>
-  </nav>
+    <section class="contact">
+      <div class="contacttext">
+        <h1>Kontakt</h1>
+        <p>
+          Haben Sie ein Projekt im Kopf oder <br />
+          möchten Sie einfach Hallo sagen?<br />
+          Ich freue mich auf Ihre Nachricht!
+        </p>
 
-  <section class="contact">
-    <h1>Kontakt</h1>
+        <p>
+          Email <br />
+          josephine.borer@gmx.ch <br />
+          Telefon <br />
+          +41 079 853 72 39 <br />
+          Standort <br />
+          St.Gallen, Schweiz
+        </p>
+      </div>
 
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="E-Mail" required>
-      <textarea placeholder="Nachricht"></textarea>
-      <button type="submit">Senden</button>
-    </form>
-  </section>
-
-</body>
+      <div class="contactform">
+        <form>
+          <h2>Nachricht schreiben</h2>
+          <p class="pcontact">Name:</p>
+          <input class="input" type="text" placeholder="Name" required /> <br />
+          <br />
+          <p class="pcontact">E-Mail:</p>
+          <input class="input" type="email" placeholder="E-Mail" required />
+          <br />
+          <br />
+          <p class="pcontact">Nachricht:</p>
+          <textarea class="input" placeholder="Nachricht"></textarea> <br />
+          <br />
+          <button type="submit">Senden</button>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
